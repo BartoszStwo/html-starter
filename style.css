@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: url('denis3.png');
+  background-image: url('denisgif.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -12,7 +12,7 @@ main {
   height: 100vh;
 }
 .gradient {
-  background: linear-gradient(237deg, #282828, rgba(255,255,255,0.5));
+  background: linear-gradient(237deg, #286594, rgba(255,255,255,0.5));
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 44s ease infinite;
@@ -42,13 +42,11 @@ section.hero {
   color: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  
-
 }
 section.hero h1 {
   margin: 0;
   font-optical-sizing: auto;
-  font-size: xx-large;
+  font-size: 4em;
   font-weight: 100;
   font-style: normal;
 }
@@ -68,48 +66,46 @@ section.hero img {
   -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
   box-shadow: 8px 8px 12px 0px rgb(0, 0, 0);
 }
+
 .newsletter {
-    margin-top: 20vh;
-    width: 100%;
-    height: 10vh;
- 
-    display: flex;
-    flex-direction:  row;
-    justify-content: center;
-    
+  margin-top: 20vh;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.newsletter form {
-   
-    display: flex;
-    border-radius: 15px;
-    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-    box-shadow: 8px 8px 12px 0px rgb(0, 0, 0);
-  }
+.newsletter form{
+  display: flex;  
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 4px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 4px 4px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 4px 4px 12px 0px rgb(0, 0, 0);
 }
-
-
 
 .newsletter form input,
 .newsletter form button {
-    font-family: "Poppins", sans-serif;
-    appearance: none;
-    border: 1px solid #0a2431;
-    border-radius: 3px;
-    padding: 3px;
-    background-color: #e6ebee;
-    outline: none;
-    text-transform: uppercase;
+  appearance: none;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #0a2431;
+  border-radius: 3px;
+  padding: 3px;
+  font-size: 10px;
+  background-color: #f2f3f4;
+  outline: none;
+}
 
-}
-.newsletter form button {
-    background-color: #0a2431;
-    color: #e6ebee;
-    border-radius: 0px 5px 5px 0px;
-    font-size: 10px;
-    padding: 0 10px;
-}
+.newsletter form button { 
+  text-transform: uppercase;
+  appearance: none;
+  padding: 0 10px;  
+  font-size: 1em;
+  border-radius: 0px 5px 5px 0px; 
+  background-color: #0a2431;
+  color: #f2f3f4;
 }
 .newsletter form input {
-    border-radius: 3px 0px 0px 5px;
+  font-size: 1em;
+  width: 200px;
+  border-radius: 5px 0px 0px 5px;
 }
